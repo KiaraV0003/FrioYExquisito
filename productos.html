@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | Frío & Exquisito</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="dark-icon.ico">
+
+</head>
+<body>
+    
+    <header>
+
+        <div id="to-index" href="index.html">
+            <a href="index.html">
+                <img src="web-logo1.svg">
+            </a>
+
+            <a href="index.html">
+                <p>Frío & Exquisito</p>
+            </a>
+        </div>
+
+        <div id="pages">
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="pago.html">Métodos de pago</a>
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+        <section class="container2">
+            <div class="wrapper2">
+                <div class="wrapper-holder">
+                    <div id="slider-img-2_1"></div>
+                    <div id="slider-img-2_2"></div>
+                    <div id="slider-img-2_3"></div>
+                    <div id="slider-img-2_1"></div>
+                    <div id="slider-img-2_2"></div>
+                </div>
+            </div>
+
+            <div class="button-holder">
+                <a href="#slider-img-2_1" class="button"></a>
+                <a href="#slider-img-2_2" class="button"></a>
+                <a href="#slider-img-2_3" class="button"></a>
+            </div>
+        </section>
+
+        <h1>Helados</h1>
+
+        <section class="contenido">
+            <div class="mostrador" id="mostrador">
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-1.png" alt="">
+                        </div>
+                        <p class="descripcion">Paraíso de Fresas</p>
+                        <span class="precio">S/. 9.50</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-2.jpg" alt="">
+                        </div>
+                        <p class="descripcion" id>Chocolate Delirio</p>
+                        <span class="precio">S/. 8.70</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-3.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Vainilla Divina</p>
+                        <span class="precio">S/. 6.50</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-4.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Menta Frescura</p>
+                        <span class="precio">S/. 8.00</span>
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-5.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Mango Delirio</p>
+                        <span class="precio">S/. 8.40</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-6.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Mora Magenta</p>
+                        <span class="precio">S/. 9.00</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-7.png" alt="">
+                        </div>
+                        <p class="descripcion">Maracuyá Pasión</p>
+                        <span class="precio">S/. 9.80</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-8.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Frambuesa Encanto</p>
+                        <span class="precio">S/. 8.50</span>
+                    </div>
+                </div> 
+
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-9.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Café Éxtasis</p>
+                        <span class="precio">S/. 7.50</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-10.png" alt="">
+                        </div>
+                        <p class="descripcion">Oreo Delicia</p>
+                        <span class="precio">S/. 9.20</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-11.png" alt="">
+                        </div>
+                        <p class="descripcion">Vainilla Maní Fantástico</p>
+                        <span class="precio">S/. 8.00</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="h-12.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Banana Split Épico</p>
+                        <span class="precio">S/. 10.00</span>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+
+            <div class="seleccion" id="seleccion">
+                <div class="cerrar" onclick="cerrar()">
+                    &#x2715
+                </div>
+                <div class="info">
+                    <img src="img/1.png" alt="" id="img">
+                    <h2 id="modelo">Nombre</h2>
+                    <p id="descripcion">Descripcion</p>
+                    <span class="precio" id="precio">S/. 00.00</span>
+                </div>
+            </div>
+        </section>
+
+        <h1>Frappés</h1>
+
+        <section class="contenido">
+            <div class="mostrador" id="mostrador">
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-1.png" alt="">
+                        </div>
+                        <p class="descripcion">Café Caramelo Bliss</p>
+                        <span class="precio">S/. 10.50</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-2.png" alt="">
+                        </div>
+                        <p class="descripcion" id>Mocha Choco Crunch</p>
+                        <span class="precio">S/. 10.70</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-3.png" alt="">
+                        </div>
+                        <p class="descripcion">Éxtasis de Oreo</p>
+                        <span class="precio">S/. 12.00</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-4.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Frescura de Fresa</p>
+                        <span class="precio">S/. 11.00</span>
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-5.png" alt="">
+                        </div>
+                        <p class="descripcion">Frapuccino Mágico</p>
+                        <span class="precio">S/. 10.50</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-6.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Sandía Splash</p>
+                        <span class="precio">S/. 12.50</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-7.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Tropical Maracuyá y Coco</p>
+                        <span class="precio">S/. 13.20</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-8.png" alt="">
+                        </div>
+                        <p class="descripcion">Arcoíris de Frutas</p>
+                        <span class="precio">S/. 12.80</span>
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-9.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Plátano Delight</p>
+                        <span class="precio">S/. 11.50</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-10.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Piña Colada</p>
+                        <span class="precio">S/. 13.50</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-11.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Durazno Dream</p>
+                        <span class="precio">S/. 12.70</span>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="f-12.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Manjar Blanco Elegante</p>
+                        <span class="precio">S/. 14.20</span>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+
+    </main>
+
+
+    
+    <footer>
+
+        <div id="foot-data1">
+            <img src="foot-logo.png">
+
+            <div id="social-media">
+                <a href="https://pe.linkedin.com/">
+                    <img src="linkedin.png">
+                </a>
+                <a href="https://www.facebook.com/login/">
+                    <img src="fb.png">
+                </a>
+                <a href="https://twitter.com/login?lang=es">
+                    <img src="tt.png">
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="yt.png">
+                </a>
+            </div>
+
+            <p>¿Quieres recibir más novedades sobre nuestros<br>sabores y variedades?</p>
+
+            <form id="foot-sub" action="https://formsubmit.co/kcondorif@ieefaz.edu.pe" method="post">
+                <input type="email" id="foot-sub1" placeholder="Introduce tu email">
+                <button type="submit" id="foot-sub2">Suscríbete</button>
+            </form>
+        </div>
+
+        <div id="foot-data2">
+            <div>
+                <p>Email</p>
+                <p>frioyexquisito_business<br>@gmail.com</p>
+            </div>
+            
+            <div>
+                <a href="index.html">Sobre nosotros</a>
+                <a href="productos.html">Productos</a>
+                <a href="productos.html">Helados</a>
+                <a href="productos.html">Frappés</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="pago.html">Métodos de pago</a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
